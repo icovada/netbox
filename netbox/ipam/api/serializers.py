@@ -383,6 +383,7 @@ class IPRangeSerializer(NetBoxModelSerializer):
         fields = [
             'id', 'url', 'display', 'family', 'start_address', 'end_address', 'size', 'vrf', 'tenant', 'status', 'role',
             'description', 'comments', 'tags', 'custom_fields', 'created', 'last_updated', 'mark_utilized',
+            'utilization',
         ]
 
 
